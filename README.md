@@ -9,4 +9,4 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
 
 *Using R and Other Tools for Bioinformatics Analysis*
 - Class 10: [Halloween Candy Mini-Project](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.md) | [code](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.qmd)
-- Class 11: [Structural Bioinformatics](https://github.com/g1cole/bimm143/blob/main/class11/class11Project.md) | [code]()
+- Class 11: [Structural Bioinformatics](https://github.com/g1cole/bimm143/blob/main/class11/class11R.md) | [code](https://github.com/g1cole/bimm143/blob/main/class11/class11R.qmd)
