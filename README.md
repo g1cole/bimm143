@@ -6,10 +6,10 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
 ## Index Material
 *Introductory Material: Working with R*
 - Class 1: [Data Exploration & Visualization in R](https://github.com/g1cole/bimm143/blob/main/class05.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class05.qmd)
-- Class 2: [R Functions and R Packages from CRAN and BioConductor]() | [code]()
-- Class 3: [Introduction to Machine Learning for Bioinformatics]() | [code]()
-- Class 4: [Unsupervised Learning Mini-Project]() | [code]()
-- Class 5: [Structural Bioinformatics (Focus on new AlphaFold2)]() | [code]()
+- Class 2: [R Functions and R Packages from CRAN and BioConductor](https://github.com/g1cole/bimm143/blob/main/class06.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class06.qmd)
+- Class 3: [Introduction to Machine Learning for Bioinformatics](https://github.com/g1cole/bimm143/blob/main/class07Lab.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class07Lab.qmd)
+- Class 4: [Unsupervised Learning Mini-Project](https://github.com/g1cole/bimm143/blob/main/class08.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class08.qmd)
+- Class 5: [Structural Bioinformatics (Focus on new AlphaFold2)](https://github.com/g1cole/bimm143/blob/main/Class9Project.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/Class9Project.qmd)
 
 *Using R and Other Tools for Bioinformatics Analysis*
 - Class 6: [Halloween Candy Mini-Project](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.md) | [code](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.qmd)
