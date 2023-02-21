@@ -5,7 +5,7 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
 
 ## Index Material
 *Introductory Material: Working with R*
-- Class 1: [Data Exploration & Visualization in R]() | [code]()
+- Class 1: [Data Exploration & Visualization in R](https://github.com/g1cole/bimm143/blob/main/class05.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class05.qmd)
 - Class 2: [R Functions and R Packages from CRAN and BioConductor]() | [code]()
 - Class 3: [Introduction to Machine Learning for Bioinformatics]() | [code]()
 - Class 4: [Unsupervised Learning Mini-Project]() | [code]()
