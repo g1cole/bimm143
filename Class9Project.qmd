@@ -1,0 +1,21 @@
+---
+title: "Class 9 Project"
+author: "Garrett Cole"
+format: pdf
+---
+
+# Introduction to the RCSB Protein Data Bank (PDB)
+```{r}
+pdbData <- "Data Export Summary.csv"
+pdb <- read.csv(pdbData, row.names = 1)
+View(pdb)
+```
+## Question 1: What percentage of structures in the PDB are solved by X-ray and Electron Microscopy?
+((169,916+12,908)/196,979) * 100 = 92.81%
+
+## Question 2: What proportion of structures in the PDB are protein?
+(171,351/196,979) * 100 = 86.99%
+
+## Question 3: Type HIV in the PDB website search box on the home page and determine how many HIV-1 protease structures are in the current PDB?
+646
+
