@@ -18,5 +18,5 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
 - Class 9: [RNA-Seq Analysis Mini Project](https://github.com/g1cole/bimm143/blob/main/Class-13-Mini-Project-Lab.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/Class%2013%20Mini-Project%20Lab.qmd)
 - Class 10: [Essential UNIX for Bioinformatics](https://github.com/g1cole/bimm143/blob/main/HW8_Unix_Questions.pdf)
 - Class 11: [Vaccination Rate Mini Project](https://github.com/g1cole/bimm143/blob/main/class17.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class17.qmd)
-- Class 12: [Mini Project: Investigating Pertussis Resurgence](https://github.com/g1cole/bimm143/blob/main/class19.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class19.md)
-- Final Exam: [Find a Gene Project]() | [code]()
+- Class 12: [Mini Project: Investigating Pertussis Resurgence](https://github.com/g1cole/bimm143/blob/main/class19.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class19.qmd)
+- Final Exam: [Find a Gene Project](https://github.com/g1cole/bimm143/blob/main/Find%20A%20Gene%20Project%20(3).pdf)
