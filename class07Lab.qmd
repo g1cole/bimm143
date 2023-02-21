@@ -1,0 +1,118 @@
+---
+title: "Class 7 Lab"
+author: "Garrett Cole"
+format: pdf
+---
+Data Import
+```{r}
+url <- "https://tinyurl.com/UK-foods"
+x <- read.csv(url)
+```
+
+## Question 1
+How many rows and columns are in your new data frame named x? What R functions could you use to answer this question?
+
+For # of rows in a data frame, you can use the nrow() function
+```{r}
+nrow(x)
+```
+For # of columns in a data frame, you can use the ncol() function
+```{r}
+ncol(x)
+```
+
+Checking your data
+```{r}
+#View(x)
+head(x)
+tail(x)
+```
+
+Fix alignment of rows
+```{r}
+rownames(x) <- x[,1]
+x <- x[,-1]
+head(x)
+
+#Or can do it like this when reading in file
+#x <- read.csv(url, row.names=1)
+#head(x)
+```
+
+## Question 2
+Which approach to solving the 'row-names problem' mentioned above do you prefer and why? Is one approach more robust than another under certain circumstances?
+
+I prefer the read.csv way since it is more simple and requires only one line of code. This approach is more robust since if you do the first approach numerous times then it will delete one the left most column causing the row names to be deleted and will keep deleting the columns if you repeat.
+
+
+Spotting Major Differences and Trends
+```{r}
+barplot(as.matrix(x), beside=T, col=rainbow(nrow(x)))
+
+barplot(as.matrix(x), beside=F, col=rainbow(nrow(x)))
+```
+
+## Question 3
+Changing what optional argument in the above barplot() function results in the following plot?
+
+Changing the optional argument beside() from true to false such as beside = F would result in that plot
+
+## Question 5
+Generating all pairwise plots may help somewhat. Can you make sense of the following code and resulting figure, What does it mean if a given point lies on the diagonal for a given plot?
+```{r}
+pairs(x, col=rainbow(10), pch=16)
+```
+If a given point lines up on the diagonal for a given plot then that means the food category that the plot is in, is equal between the two countries that the plot is comparing.
+
+## Question 6
+What is the main differences between N. Ireland and the other countries of the UK in terms of this data-set?
+
+The main differences between N. Ireland and the other countries is that in the plots comparing N. Ireland and the rest of the countries most of the data points are skewed towards the other countries' side of the plots. This represents that N. Ireland has the least amount of food for most categories compared to the other countries
+
+PCA to the Rescue
+```{r}
+pca <- prcomp( t(x) )
+summary(pca)
+```
+
+## Question 7
+Complete the code below to generate a plot of PC1 vs. PC2.
+```{r}
+plot(pca$x[,1], pca$x[,2], xlab="PC1", ylab="PC2", xlim=c(-270,500))
+text(pca$x[,1], pca$x[,2], colnames(x))
+```
+
+## Question 8
+Customize your plot so that the colors of the country names match the colors in our UK and Ireland map and table at start of this document
+```{r}
+plot(pca$x[,1], pca$x[,2], xlab="PC1", ylab="PC2", xlim=c(-270,500))
+text(pca$x[,1], pca$x[,2], colnames(x), col = c("orange", "red", "blue", "green"))
+```
+
+## Question 9
+Generate a similar 'loadings plot' for PC2. What two food groups feature prominantely and what does PC2 mainly tell us about?
+```{r}
+par(mar=c(10, 3, 0.35, 0))
+barplot( pca$rotation[,2], las=2 )
+```
+The two food groups feature prominantely are Fresh_potatoes and Soft_drinks, the highest positive score is Fresh_potatoes which tells us that it is one of the main contributors to "pushing" N. Ireland to the right positive side of the plot. The highest negative score is Soft_drinks which tells us that it is a main contributor to "pushing" other countries to the left side of the plot.
+
+
+PCA of RNA-seq data
+Read in data from website
+```{r}
+url2 <- "https://tinyurl.com/expression-CSV"
+rna.data <- read.csv(url2, row.names=1)
+#head(rna.data)
+```
+## Question 10
+How many genes and samples are in this data set?
+Genes: 100
+```{r}
+nrow(rna.data)
+```
+Samples: 10
+```{r}
+ncol(rna.data)
+```
+
