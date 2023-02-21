@@ -13,11 +13,10 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
 
 *Using R and Other Tools for Bioinformatics Analysis*
 - Class 6: [Halloween Candy Mini-Project](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.md) | [code](https://github.com/g1cole/bimm143/blob/main/class10/class10Project.qmd)
-- Class 7: [Genome Informatics](https://github.com/g1cole/bimm143/blob/main/class11/class11R.md) | [code](https://github.com/g1cole/bimm143/blob/main/class11/class11R.qmd)
-- Class 8: [Transcriptomics and the Analysis of RNA-Seq data]() | [code]()
-- Class 9: [RNA-Seq Analysis Mini Project]() | [code]()
-- Class 10: [Essential UNIX for Bioinformatics]() | [code]()
-- Class 11: [Hands-on with Git and GitHub]() | [code]()
-- Class 12: [Vaccination Rate Mini Project]() | [code]()
-- Class 13: [Mini Project: Investigating Pertussis Resurgence]() | [code]()
+- Class 7: [Genome Informatics](https://github.com/g1cole/bimm143/blob/main/class11/class11R.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class11/class11R.qmd)
+- Class 8: [Transcriptomics and the Analysis of RNA-Seq data](https://github.com/g1cole/bimm143/blob/main/class12.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class12.qmd)
+- Class 9: [RNA-Seq Analysis Mini Project](https://github.com/g1cole/bimm143/blob/main/Class-13-Mini-Project-Lab.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/Class%2013%20Mini-Project%20Lab.qmd)
+- Class 10: [Essential UNIX for Bioinformatics](https://github.com/g1cole/bimm143/blob/main/HW8_Unix_Questions.pdf)
+- Class 11: [Vaccination Rate Mini Project](https://github.com/g1cole/bimm143/blob/main/class17.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class17.qmd)
+- Class 12: [Mini Project: Investigating Pertussis Resurgence](https://github.com/g1cole/bimm143/blob/main/class19.pdf) | [code](https://github.com/g1cole/bimm143/blob/main/class19.md)
 - Final Exam: [Find a Gene Project]() | [code]()
