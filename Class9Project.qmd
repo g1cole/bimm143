@@ -8,7 +8,7 @@ format: pdf
 ```{r}
 pdbData <- "Data Export Summary.csv"
 pdb <- read.csv(pdbData, row.names = 1)
-View(pdb)
+head(pdb)
 ```
 ## Question 1: What percentage of structures in the PDB are solved by X-ray and Electron Microscopy?
 ((169,916+12,908)/196,979) * 100 = 92.81%
