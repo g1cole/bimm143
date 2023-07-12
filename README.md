@@ -42,4 +42,4 @@ Here is a portfolio of my work for [BIMM143](https://bioboot.github.io/bimm143_F
   - Topical mini-propject using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate updated 
   datasets associated with pertussis cases and longtiudinal RNA-seq on the immune response to distance vaccination 
   strategies.
-- Final Exam: [Find a Gene Project](https://github.com/g1cole/bimm143/blob/main/Find%20A%20Gene%20Project%20(3).pdf) |
+- Final Exam: [Find a Gene Project](https://github.com/g1cole/bimm143/blob/main/Find%20A%20Gene%20Project%20Website.pdf) |
